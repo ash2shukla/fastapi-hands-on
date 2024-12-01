@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-hands-on"
+version = "0.1.0"
+description = "Content for talk on FastAPI's real world usage"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.5",
+    "pydantic>=2.10.2",
+    "pytest>=8.3.3",
+    "sqlalchemy>=2.0.36",
+    "sqlmodel>=0.0.22",
+]

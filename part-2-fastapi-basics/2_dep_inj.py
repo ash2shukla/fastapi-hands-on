@@ -39,6 +39,11 @@ async def nested_dep_ep(_=Depends(nested_dep)):
     return "nested_dep response"
 
 
+# 7. These dependencies can be assigned at router or even app level like
+@app.get("/dep_on_router", dependencies=[Depends(nested_dep), Depends(flat_dep)])
+async def dep_on_router(): ...
+
+
 if __name__ == "__main__":
     import uvicorn
 

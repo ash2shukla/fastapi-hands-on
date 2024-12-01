@@ -9,6 +9,8 @@ dependencies = [
     "pydantic-settings>=2.6.1",
     "pydantic>=2.10.2",
     "pytest>=8.3.3",
-    "sqlalchemy>=2.0.36",
+    "sqlalchemy[asyncio]>=2.0.36",
     "sqlmodel>=0.0.22",
+    "alembic>=1.14.0",
+    "psycopg[binary,pool]>=3.2.3",
 ]

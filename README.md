@@ -13,3 +13,10 @@ This repo contains code snippets corresponding to following stuff-
 
 The code is separated in different branches prefixed with part-[number]
 to follow along just keep checking out to corresponding branches eg. `git checkout part-1`
+
+# Setup
+
+1. install [uv](https://docs.astral.sh/uv/)
+2. uv python install 3.12
+3. uv venv --python 3.12
+4. source .venv/bin/python

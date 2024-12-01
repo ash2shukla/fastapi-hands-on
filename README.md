@@ -11,9 +11,6 @@ This repo contains code snippets corresponding to following stuff-
 8. Exception Handling
 9. Testing with FastAPI Stubs
 
-The code is separated in different branches prefixed with part-[number]
-to follow along just keep checking out to corresponding branches eg. `git checkout part-1`
-
 # Setup
 
 1. install [uv](https://docs.astral.sh/uv/)
